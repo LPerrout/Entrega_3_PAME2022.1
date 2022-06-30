@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .center{
+    max-width: 960px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    background-image: url(https://img.freepik.com/vetores-gratis/desenho-de-supermercado-produtos-mercearia-comida-mercado-interior-fundo_80590-7621.jpg?w=1380);
+    padding: 40px 0;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    min-height: 100px;
+  
+  
+  }
+  
+  .item-menu a{
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgba(25, 49, 11, 0.892);
+    
+  
+  }
+  .menu{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .menu h3{
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    background-color: rgba(25, 49, 11, 0.892);
+    margin:3px;
+    padding: 3px;
+    text-shadow: rgba(255, 255, 255, 0.);
+  }
+  .form h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px rgb(0, 0, 0), 
+    -1px 1px 0px rgb(0, 0, 0),      
+     1px -1px 0px rgb(0, 0, 0),    
+     1px 0px 0px rgb(0, 0, 0);
+  }
+  
+  .menu a{
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+    padding: 3px 8px;
+    border-radius:6px;
+    margin-right: 4px;
+  }
+  
+  .form{ 
+    display: flex;
+    width: 100%;
+    max-width: 30%;
+    background-color:rgba(25, 49, 11, 0.892);
+    border-radius:5%;
+    padding: 2%;
+    
+  }
+  .form input[type=text]
+  {
+    width: 3%;
+    justify-content: space-between;
+    width: 220%;
+    margin-left:15%;
+    padding-left: 5px;
+  }
+  
+  .itens-formulario{
+    width: 40%;
+    height: 40%;
+  }
+  
+  .login{
+    width: 200%;
+    height: 40%;
+    margin-left:25%;
+    text-decoration: none;
+    border:1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-top: 9%;
+    background-color: rgba(25, 49, 11, 0.892);
+    cursor: pointer;
+    color: white;
+  
+  }
+
+  .footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    flex-direction: column;
+    max-height: 70px;
+    margin-top: 10%;
+  }
+  .center2{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+  
+  }
+  .infosad{
+    padding:2%;
+    background-color: rgba(25, 49, 11, 0.892);
+    width: 50%;
+  }
+  .infosad h4{
+    color: white;
+  }
+  .infosad p{
+    color: white;
+  }
+  
+  @media screen and (max-width:768px) {
+    .itens-form input[type=text]{
+      width:100%;
+    }
+    .infosad{width: 100%;}
+  }
+
+/*999999999999999999999999999999999999999999999999999999999999999999999999999*/
+
+.main{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.892);
+
+}
+.pesquisa{
+    display: flex;
+    margin: 1%;
+    align-items: center;
+    padding:0.5%;
+    height: 10%;
+    margin-top:3%;
+}
+.barrapesquisa {
+    margin-left: 3%;
+    height: 40%;
+    width: 25%;
+    border-radius: 5%;
+}
+.catalogo{
+    background-color: rgb(255, 255, 255);
+    max-height: 100%;
+    height: 100%;
+    padding: 4%;
+}
+.produto {
+        
+    width: 100%;
+    max-width: 20%;
+    background-color:rgba(25, 49, 11, 0.892);
+    border-radius:5%;
+    padding: 2%;
+    height: 50%;
+}
+.center3{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha1{
+    padding-top: 5%;
+}
+.pesquisar{
+    margin-left: 1%;
+    text-decoration: none;
+    border:1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgba(25, 49, 11, 0.892);
+    cursor: pointer;
+    color: white;
+}
+.fotoproduto{
+    background-color:white;
+    text-align: center;
+}
+.botoesdecompra{
+    margin-left: 1%;
+    text-decoration: none;
+    border:1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    color: rgba(25, 49, 11, 0.892)ite;
+    margin-left: 13%;;
+}
+.informaprod{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: white;
+}
+.Preco{
+  
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+
+}
